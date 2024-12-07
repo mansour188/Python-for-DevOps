@@ -15,7 +15,7 @@ my-python-project/
 ├── .env                      # Environment variables
 └── README.md      
 
-
+```
 ## Setup Instructions
 
 ### Prerequisites
@@ -30,8 +30,9 @@ Clone the repository to your local machine:
 ```bash
 git clone git@github.com:mansour188/Python-for-DevOps.git
 cd Python-for-DevOps
-
+```
 ### Step 2: Add Environment Variables
+
 Create a .env file in the project root and define your variables:
 
 To run a script, you should create it inside the app, update the SCRIPT_NAME variable with the name of the script file, and restart the environment.<.start.sh>
