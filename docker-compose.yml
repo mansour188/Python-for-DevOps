@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  app:
+    build:
+      context: ./app
+    volumes:
+      - ./app:/app  # Mount the local app directory for live updates
+    env_file:
+      - .env
+    environment:
+      - SCRIPT_NAME=${SCRIPT_NAME} #Override the CMD in the Dockerfile
